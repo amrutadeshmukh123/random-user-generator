@@ -97,3 +97,74 @@ body{
 .container .info .row-field .field1{
     width: 50%;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+        max-width: 350px;
+        padding: 12px;
+    }
+
+    .header {
+        padding: 0px 3%;
+        font-size: 14px;
+    }
+
+    .header button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .container .info label {
+        font-size: 1em;
+    }
+
+    .container .info p {
+        font-size: 0.9em;
+    }
+
+    .container .profile-picture img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    .header {
+        padding: 0px 2%;
+        font-size: 12px;
+    }
+
+    .header button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .container .profile-picture img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .container .info label {
+        font-size: 0.95em;
+    }
+
+    .container .info p {
+        font-size: 0.85em;
+    }
+
+    .container .info .row-field {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .container .info .row-field .field1 {
+        width: 100%;
+    }
+}

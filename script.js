@@ -49,5 +49,5 @@ btn.addEventListener('click',()=>{
             DOB.innerHTML=dob.toLocaleDateString()
 
         }
-    },2000);
+    },1000);
 })
